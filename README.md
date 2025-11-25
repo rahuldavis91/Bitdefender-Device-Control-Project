@@ -52,22 +52,22 @@ This project showcases:
 ---
 
 ## **1️⃣ Policy Creation**
-![Policy Creation](Screenshots/1. Policy Creation.png)
+![Policy Creation](/Screenshots/1. Policy Creation.png)
 
 ---
 
 ## **2️⃣ Device Control Module ON**
-![Device Control ON](Screenshots/2. Device Control Module ON.PNG)
+![Device Control ON](/Screenshots/2. Device Control Module ON.PNG)
 
 ---
 
 ## **3️⃣ External Storage Rule – Block All**
-![External Storage Rule](Screenshots/3. External Storage Rule (BLOCK).png)
+![External Storage Rule](/Screenshots/3. External Storage Rule (BLOCK).png)
 
 ---
 
 ## **4️⃣ Bluetooth Blocking Rule**
-![Bluetooth Rule](Screenshots/4. Bluetooth Rule (BLOCK).png)
+![Bluetooth Rule](/Screenshots/4. Bluetooth Rule (BLOCK).png)
 
 ---
 
