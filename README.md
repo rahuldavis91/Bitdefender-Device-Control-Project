@@ -45,75 +45,93 @@ This project showcases:
 - Applying policy to endpoints  
 
 ---
-## 📸 Screenshots (Step-by-Step)
+## 📸 Screenshots (Step-by-Step Documentation)
 
-### 1️⃣ Policy Creation
+---
+
+### 1️⃣ Policy Creation  
+A new Device Control Policy is created in Bitdefender GravityZone for managing device restrictions.  
 ![Policy Creation](Screenshots/1.%20Policy%20Creation.png)
 
 ---
 
-### 2️⃣ Device Control Module ON
+### 2️⃣ Device Control Module ON  
+The Device Control module is enabled to enforce USB, storage, and peripheral restrictions.  
 ![Device Control Module ON](Screenshots/2.%20Device%20Control%20Module%20ON.PNG)
 
 ---
 
-### 3️⃣ External Storage Rule – Block All
+### 3️⃣ External Storage Rule – Block All  
+All external storage interfaces (USB, Firewire, SD Card, etc.) are configured to **Blocked** for maximum data protection.  
 ![External Storage Rule](Screenshots/3.%20External%20Storage%20Rule%20(BLOCK).png)
 
 ---
 
-### 4️⃣ Bluetooth Blocking Rule
+### 4️⃣ Bluetooth Blocking Rule  
+Bluetooth devices are fully blocked to prevent wireless data exfiltration.  
 ![Bluetooth Blocking Rule](Screenshots/4.%20Bluetooth%20Rule%20(BLOCK).png)
 
 ---
 
-### 5️⃣ CD-ROM Drive Blocking Rule
+### 5️⃣ CD-ROM Drive Blocking Rule  
+CD-ROM drives are blocked to prevent unauthorized data transfer using disk media.  
 ![CDROM Blocking Rule](Screenshots/5.%20CDROM%20BLOCK%20Rule.png)
 
 ---
 
-### 6️⃣ Exclusions Menu (Before Adding)
+### 6️⃣ Exclusions Menu (Before Adding)  
+Initial view showing **no exclusions added** before authorizing a specific USB device.  
 ![Exclusions Menu](Screenshots/6.%20Exclusions%20Menu%20(Empty%20State).png)
 
 ---
 
-### 7️⃣ Add Exclusion Window – Device ID Selected
+### 7️⃣ Add Exclusion Window – Device ID Selected  
+The system-detected USB device (SanDisk) is selected by Device ID for creating a safe exception.  
 ![Add Exclusion Window](Screenshots/7.%20Add%20Exclusion%20Window%20(Device%20ID%20selected).png)
 
 ---
 
-### 8️⃣ Authorized USB Highlighted
+### 8️⃣ Authorized USB Highlighted  
+The selected USB is marked as “IT Authorized USB” and set to **Allowed**.  
 ![Authorized USB](Screenshots/8.%20Authorized%20USB%20Highlighted%20+%20Description%20Filled.png)
 
 ---
 
-### 9️⃣ Exclusion Added Successfully
+### 9️⃣ Exclusion Added Successfully  
+The Authorized USB device has now been added to the exclusions list.  
 ![Exclusion Added](Screenshots/9.%20Exclusion%20Added%20(After%20Saving).png)
 
 ---
 
-### 🔟 USB Allowed Pop-Up
+### 🔟 USB Allowed Pop-Up  
+Endpoint notification showing the **Authorized USB** was successfully allowed.  
 ![USB Allowed Pop-Up](Screenshots/10.%20USB%20Allowed%20Pop-Up.png)
 
 ---
 
-### 1️⃣1️⃣ Allowed Event in Logs
+### 1️⃣1️⃣ Allowed Event in Logs  
+GravityZone logs confirm the allowed event for the authorized USB device.  
 ![USB Allowed Event](Screenshots/11.%20USB%20Allowed%20Event%20(Authorized%20USB).png)
 
 ---
 
-### 1️⃣2️⃣ Unauthorized USB Block Pop-Up
+### 1️⃣2️⃣ Unauthorized USB Block Pop-Up  
+A blocked pop-up appears when an **unauthorized USB** is inserted.  
 ![USB Block Pop-Up](Screenshots/12.%20USB%20Block%20Pop-Up.png)
 
 ---
 
-### 1️⃣3️⃣ Blocked USB Event in Logs
+### 1️⃣3️⃣ Blocked USB Event in Logs  
+Threats/Xplorer logs show the block event for the unauthorized USB device.  
 ![USB Block Event](Screenshots/13.%20USB%20Block%20Event%20in%20Logs%20(Unauthorized%20USB).png)
 
 ---
 
-### 1️⃣4️⃣ Policy Applied to Endpoint
+### 1️⃣4️⃣ Policy Applied to Endpoint  
+The Device Control Policy is successfully assigned to the endpoint (RAHULKUMAR).  
 ![Policy Applied](Screenshots/14.%20Policy%20Applied%20to%20Endpoint.png)
+
+---
 
 
 
